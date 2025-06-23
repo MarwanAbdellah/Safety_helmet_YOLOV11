@@ -1,0 +1,14 @@
+/env
+/mlruns
+/optuna_runs
+/__pycache__
+/runs
+/training
+yolo*
+/safety-helmet-1
+\.dvc
+/ex_notebooks
+.dvc*
+dvc.lock
+.dvcignore
+.dvc
