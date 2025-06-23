@@ -26,16 +26,13 @@ safety_helmet_YOLOV11/
 │       └── train/
 │           └── weights/
 │               └── best.pt
-├── inference/
-│   ├── medium_inference.py
-│   └── large_inference.py
-├── fastapi_app/
-│   └── main.py
+├── inference.py
+│
+├── app.py
+│
 ├── notebooks/
-│   └── analysis.ipynb
-├── scripts/
-│   ├── train.py
-│   └── optuna_search.py
+│   └── preprocessing.ipynb
+│   └── training.ipynb
 ├── README.md
 ├── requirements.txt
 └── .gitignore
